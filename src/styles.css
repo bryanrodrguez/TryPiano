@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: rgb(0,0,0);
+    background: -moz-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(107,0,22,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(107,0,22,1) 100%);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(107,0,22,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#6b0016",GradientType=1);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Erica+One);
+
+h1 {
+
+    cursor: default;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    
+    -webkit-animation: bounce .3s ease infinite alternate;
+    
+    font-family: 'Erica One', cursive;
+    font-size: 50px;
+    color: #FFF;
+    text-align: center;
+    line-height: 100px;
+    text-shadow: 0 1px 0 #CCC,
+                0 2px 0 #CCC,
+                0 3px 0 #CCC,
+                0 4px 0 #CCC,
+                0 5px 0 #CCC,
+                0 6px 0 transparent,
+                0 7px 0 transparent,
+                0 8px 0 transparent,
+                0 9px 0 transparent,
+                0 10px 10px rgba(0, 0, 0, .6);
+}
+::-webkit-scrollbar {
+    display: none;
+}
